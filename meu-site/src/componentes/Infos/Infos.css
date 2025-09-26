@@ -1,0 +1,157 @@
+.infos {
+    width: 95vw;
+    margin: auto;
+    height: 100vh;
+    /* border: 1px solid white; */
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: left;
+    position: relative;
+}
+
+.h2Infos {
+    transform: translateX(-700px);
+    opacity: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 500px;
+    top: 130px;
+    background-image: linear-gradient(to Left, black, rgba(31, 31, 31, 0.541));
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 45px;
+
+
+}
+
+.pInfos {
+    position: relative;
+    color: white;
+    display: grid;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    align-items: center;
+    top: 100px;
+    justify-content: left;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to Left, black, rgba(31, 31, 31, 0.541));
+    font-size: 35px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    height: 830px;
+    color: white;
+}
+
+
+
+.foto-container{
+    position: relative;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    right: 70px;
+   
+    /* overflow: hidden; */
+}
+
+.foto {
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.profilePic{
+    opacity: 1;
+}
+
+.p-Modal, .p-comp{
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: rgb(193, 209, 223);
+    background-color: rgba(53, 52, 52, 0.322);
+}
+
+.picHidden {
+    opacity: 0;
+}
+
+
+
+.foto-container:hover .profilePic {
+     opacity: 0;
+
+}
+.foto-container:hover .picHidden {
+     opacity: 1;
+
+}
+
+
+
+.foto-container:hover img{
+    box-shadow: 1px 1px 22px white;
+
+}
+
+
+.modalContent button {
+    background: darkred;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.sociais{
+   margin-top: 20px;
+    font-size: 30px;
+    background-color: rgba(53, 52, 52, 0.322);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.btnSociais > .icons{
+    color: white;
+}
+
+.btnSociais:hover{
+    cursor: pointer;
+    
+}

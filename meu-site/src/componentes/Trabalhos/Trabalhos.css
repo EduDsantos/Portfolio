@@ -1,0 +1,222 @@
+.mainWorks {
+    background-color: rgb(0, 0, 0);
+    width: 95vw;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+.kaizen {
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    position: relative;
+    bottom: 400px;
+
+}
+
+.imgKaizen {
+    opacity: 0;
+    transform: translateY(-550px);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+
+}
+
+.pKaizen {
+    color: white;
+    position: absolute;
+    margin-top: 250px;
+}
+
+.projetos {
+    display: grid;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.works {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    height: 100%;
+    gap: 40px;
+    top: 200px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgba(0, 60, 255, 0.466);
+
+    margin-bottom: 40px;
+}
+
+.jiuJitsuAcademy {
+    /* background-color: #161A30; */
+    width: 500px;
+    display: grid;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.jiuJitsuAcademy h2 {
+    margin-bottom: 20px;
+}
+
+.jiuJitsuAcademy p {
+    font-size: 20px;
+    margin-top: 15px;
+    display: flex;
+
+}
+
+.logoTeixeira {
+    width: 200px;
+    margin: auto;
+    height: 200px;
+    background-color: rgba(255, 252, 54, 0.445);
+
+    border-radius: 50%;
+
+
+}
+
+.btnLinks {
+    background-color: rgb(129, 2, 2);
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    box-shadow: 0 1px 3px red;
+    margin-top: 10px;
+
+}
+
+.btnLinks:hover {
+    box-shadow: 0px 2px 3px rgb(255, 131, 131);
+    font-size: 17px;
+}
+
+.btnLinks:active {
+    box-shadow: 2px 2px 1px 1px rgb(255, 131, 131);
+    ;
+    font-size: 14px;
+}
+
+.logoTeixeira:hover {
+    box-shadow: 1px 1px 1px 3px white;
+
+    transform: translateY(1px)
+}
+
+
+.geradorFolgas {
+    /* background-color: #161A30; */
+    width: 500px;
+    display: grid;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logoFolgas {
+    width: 200px;
+    margin: auto;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.geradorFolgas p {
+    font-size: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.geradorFolgas h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    width: 500px;
+    display: grid;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.logoSite {
+    width: 200px;
+    margin: auto;
+    height: 200px;
+    background-color: rgba(0, 60, 255, 0.466);
+    border-radius: 50%;
+}
+
+.portfolio h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio p {
+    font-size: 20px;
+    margin-top: 15px;
+
+    display: flex;
+}
+
+.portfolio>.btnLinks {
+
+    margin-top: 100px;
+}
+
+
+.futureWorks {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    height: 100%;
+    gap: 10px;
+    margin-bottom: 60px;
+    position: relative;
+    /* top: 100px; */
+    background-color: rgb(0, 0, 0);
+}
+
+.h1Future {
+    margin-top: 10px;
+
+}
+
+.ecommerce {
+    width: 500px;
+    display: grid;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.LojasRoupas {
+    width: 500px;
+    display: grid;
+    height: 450px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.logoFuture1 {
+    width: 210px;
+    margin: auto;
+    height: 170px;
+    background-color: rgba(0, 60, 255, 0.466);
+    border-radius: 50%;
+}

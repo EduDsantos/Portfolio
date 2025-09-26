@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.cabecalho {
+    width: 95vw;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid white; */
+
+}
+
+
+.cabecalho>.cabeImage01,
+.cabeImage02 {
+    width: 520px;
+    height: 210px;
+    display: flex;
+    margin: auto 20px;
+
+
+}
+
+.cabeImage02 {
+    position: relative;
+    top: 90px;
+}
+
+.textos {
+    display: grid;
+    margin: auto;
+}
+
+.h2Cabecalho {
+    color: aliceblue;
+    background: rgba(255, 255, 255, 0.062);
+    width: 300px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    align-content: center;
+    letter-spacing: 10px;
+}
+
+.h1Cabecalho {
+    background-image: transparent;
+    background: rgba(255, 255, 255, 0.062);
+   
+    width: 900px;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 30px;
+    color: white;
+    font-size: 50px;
+    margin: auto;
+
+}
+
+.imgCabecalho {
+    height: 100%;
+    position: absolute;
+    width: 95vw;
+    opacity: 0.2;
+
+}

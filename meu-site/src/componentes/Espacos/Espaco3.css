@@ -1,0 +1,37 @@
+.espaco3 {
+    width: 95vw;
+    margin: auto;
+    height: 550px;
+    border: 0.1px solid #5863f879;
+    background-color: black;
+}
+
+.conteudo3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo3 img {
+    position: relative;
+    top: 200px;
+
+
+}
+
+.nuvem1 {
+
+    right: 50px;
+}
+
+.nuvem2 {
+
+    left: 50px;
+}
+
+.conteudo3 p {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    color: aliceblue;
+}

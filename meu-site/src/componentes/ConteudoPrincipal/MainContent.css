@@ -1,0 +1,89 @@
+.mainContent {
+    width: 95vw;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.h1Tec {
+    background-image: linear-gradient(to Left, black, rgba(31, 31, 31, 0.541));
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    margin-bottom: 50px;
+    transform: translateX(700px);
+    opacity: 0;
+
+
+
+}
+
+.tecContent {
+    margin-top: 100px;
+    font-size: 45px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 900px;
+    bottom: 200px;
+
+
+}
+
+.MainImg {
+    position: relative;
+    bottom: 600px;
+    opacity: 0;
+    transform: translateY(-550px);
+    display: flex;
+}
+
+.spanScript,
+.spanReact,
+.spanNode,
+.spanMongo {
+    background: none;
+    text-align: center;
+}
+
+.javaScriptCont,
+.reactCont,
+.nodeCont,
+.mongoCont {
+    display: grid;
+    
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to top, #0e1011, #08090A) ;
+  
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+.jsIcon,
+.reactIcon,
+.nodeIcon,
+.mongoIcon {
+    
+    width: 100px;
+    margin: auto;
+    background: none;
+}
+

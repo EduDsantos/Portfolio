@@ -35,7 +35,7 @@ function MainContent() {
                 start: "  10px",
                 end: "bottom 80px",
                 scrub: true,
-                markers: true,
+                // markers: true,
             }
 
         })

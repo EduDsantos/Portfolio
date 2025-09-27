@@ -5,7 +5,7 @@ function MusicSection() {
     return (
         <section className="music-section">
             <h2>Music</h2>
-            <p>Um pouco da minha trilha sonora diaria para estudor</p>
+            <p>Um pouco da minha trilha sonora diaria para estudar</p>
 
             <div className="players">
                 <div className="player-card">

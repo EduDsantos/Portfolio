@@ -50,7 +50,7 @@
     position: relative;
     bottom: 600px;
     opacity: 0;
-    transform: translateY(-450px);
+    transform: translateY(-350px);
     
     width: 400px;
     display: flex;

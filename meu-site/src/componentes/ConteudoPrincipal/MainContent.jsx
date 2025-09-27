@@ -35,7 +35,7 @@ function MainContent() {
                 start: "top 40%",   
                 end: "top 10%",     
                 scrub: 1,
-                // markers: true,
+                markers: false,
             }
         });
 

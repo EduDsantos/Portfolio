@@ -32,9 +32,9 @@ function MainContent() {
             y: 0,
             scrollTrigger: {
                 trigger: ".MainImg",
-                start: "top 90%",   
-                end: "top 60%",     
-                scrub: true,
+                start: "top 40%",   
+                end: "top 10%",     
+                scrub: 1,
                 // markers: true,
             }
         });

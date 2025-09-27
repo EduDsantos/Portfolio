@@ -32,13 +32,12 @@ function MainContent() {
             y: 0,
             scrollTrigger: {
                 trigger: ".MainImg",
-                start: "  10px",
-                end: "bottom 80px",
+                start: "top 90%",   
+                end: "top 60%",     
                 scrub: true,
                 // markers: true,
             }
-
-        })
+        });
 
 
     }, [])

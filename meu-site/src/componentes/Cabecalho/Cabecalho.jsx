@@ -13,6 +13,7 @@ function Cabecalho() {
         gsap.to(".h1Cabecalho", {
             x: 0,
             opacity: 1,
+            
 
         })
 

@@ -2,8 +2,10 @@
     width: 95vw;
     margin: auto;
     height: 550px;
-    border: 0.1px solid #5863f879;
+  
+    border-bottom: 0.1px solid #5863f879;
     background-color: black;
     display: flex;
    
 }
+

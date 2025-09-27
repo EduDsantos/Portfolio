@@ -62,7 +62,7 @@ function Trabalhos() {
                         <p>Sistema web desenvolvido para otimizar o registro de alunos e o controle de pagamentos em academias. O projeto foi construído com React.js no front-end, Node.js no back-end e MongoDB como banco de dados. Criado sem fins lucrativos, com foco em prática de desenvolvimento e solução de problemas reais.
                         </p>
 
-                        <a className="btnLinks" href="https://github.com/EduDsantos/Registration-System">Veja aqui!</a>
+                        <a className="btnLinks" target="_blank" href="https://github.com/EduDsantos/Registration-System">Veja aqui!</a>
                     </div>
 
 
@@ -88,7 +88,7 @@ function Trabalhos() {
                         <p>Projetinho feito para o auxilio de supervisores da Autozone na criação de escala
                             de folgas mensais contento as 4 semanas do mês dividindo as folgas entre todos os funcionarios seguindo as regras da empresa. Feito com HTML, CSS e JAVASCRIPT puro. Fiz sem fins lucrativos.
                         </p>
-                        <a className="btnLinks" href="https://github.com/EduDsantos/Day-off-Generator">Veja aqui!</a>
+                        <a className="btnLinks" target="_blank" href="https://github.com/EduDsantos/Day-off-Generator">Veja aqui!</a>
                     </div>
 
 
@@ -110,7 +110,7 @@ function Trabalhos() {
 
                         </motion.div>
                         <p>Meu portfólio pessoal, feito com ReactJs e algumas animações com GSAP.</p>
-                        <a className="btnLinks" href="">Veja aqui!</a>
+                        <a className="btnLinks" target="_blank" href="">Veja aqui!</a>
                     </div>
                 </div>
 

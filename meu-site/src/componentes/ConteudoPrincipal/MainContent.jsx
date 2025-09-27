@@ -32,10 +32,10 @@ function MainContent() {
             y: 0,
             scrollTrigger: {
                 trigger: ".MainImg",
-                start: " bottom 100px",
-                end: "top 280px",
+                start: "  10px",
+                end: "bottom 80px",
                 scrub: true,
-                // markers: true,
+                markers: true,
             }
 
         })
